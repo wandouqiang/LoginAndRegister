@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/example/loginandregister/LoginActivity.java" />
+        <ignore path="src/com/example/loginandregister/RegisterActivity.java" />
+    </issue>
+    <issue id="ShowToast">
+        <ignore path="src/com/example/loginandregister/LoginActivity.java" />
+        <ignore path="src/com/example/loginandregister/RegisterActivity.java" />
+    </issue>
+</lint>

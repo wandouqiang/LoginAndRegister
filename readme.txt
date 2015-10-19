@@ -1,0 +1,1 @@
+简单的注册登录程序，客户端是android，服务器端是java程序部署在tomcat上，结合数据库mysql可以实现简单的android登录服务器功能

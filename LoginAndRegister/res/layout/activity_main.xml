@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#ffffcc" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="主功能菜单"
+        android:background="@drawable/navigator"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>  
+        <Button
+            android:id="@+id/fileUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文件上传" />
+        <Button
+            android:id="@+id/downLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文件下载" />
+        <Button
+            android:id="@+id/infoQuery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="信息查询" />   
+
+</LinearLayout>
